@@ -1,0 +1,6 @@
+[submodule "Assets/Packages/unity-gist"]
+	path = Assets/Packages/unity-gist
+	url = https://github.com/momentchan/unity-gist.git
+[submodule "Assets/Packages/unity-hdrp-gist"]
+	path = Assets/Packages/unity-hdrp-gist
+	url = https://github.com/momentchan/unity-hdrp-gist.git
