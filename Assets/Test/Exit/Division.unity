@@ -345,6 +345,55 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &681486617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 681486619}
+  - component: {fileID: 681486618}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &681486618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681486617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 9d8d7a2db0dbd7946997c35897975a97, type: 2}
+--- !u!4 &681486619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681486617}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2109047518
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,8 +406,8 @@ GameObject:
   - component: {fileID: 2109047520}
   - component: {fileID: 2109047519}
   - component: {fileID: 2109047522}
-  - component: {fileID: 2109047524}
   - component: {fileID: 2109047523}
+  - component: {fileID: 2109047524}
   m_Layer: 0
   m_Name: VFX
   m_TagString: Untagged
@@ -414,7 +463,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109047518}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 1e75e00ae9eee414eab8c25cf94788b0, type: 3}
+  m_Asset: {fileID: 8926484042661614526, guid: e2831bfe4cdea9c4ca3946387c93bf44, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -442,29 +491,32 @@ VisualEffect:
       - m_Value: 0.02
         m_Name: Distortion
         m_Overridden: 1
-      - m_Value: 0.01
+      - m_Value: 0.5
         m_Name: DistortionStrength
         m_Overridden: 1
-      - m_Value: 83.87
+      - m_Value: 200
         m_Name: DistortionFrequency
         m_Overridden: 1
       - m_Value: 0.45
         m_Name: BorderAlpha
         m_Overridden: 1
-      - m_Value: 0.19
+      - m_Value: 0.8
         m_Name: InnerAlpha
         m_Overridden: 1
-      - m_Value: 0.26
+      - m_Value: 0.28
         m_Name: SpawnRate
         m_Overridden: 1
-      - m_Value: 0
+      - m_Value: 1
         m_Name: AnimX
         m_Overridden: 1
       - m_Value: 0
         m_Name: AnimY
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 0
         m_Name: AnimT
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: TransformRatio
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
@@ -476,10 +528,10 @@ VisualEffect:
       - m_Value: {x: 1, y: 2, z: 1}
         m_Name: MaxScale
         m_Overridden: 1
-      - m_Value: {x: 0.09, y: -0.3, z: 0}
+      - m_Value: {x: 0.34, y: 0.15, z: 0}
         m_Name: Range
         m_Overridden: 1
-      - m_Value: {x: 1, y: 0, z: 1}
+      - m_Value: {x: 2.2, y: 0, z: 10}
         m_Name: Scale
         m_Overridden: 1
     m_Vector4f:
@@ -516,7 +568,7 @@ Transform:
   m_GameObject: {fileID: 2109047518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.41, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -543,7 +595,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109047518}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -564,13 +616,13 @@ PlayableDirector:
   m_GameObject: {fileID: 2109047518}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: d0210e4a9db44794a8c3006ed960e188, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 6195f781824ca8147a57f0b995fa9a70, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -3764289004954185725, guid: d0210e4a9db44794a8c3006ed960e188, type: 2}
+  - key: {fileID: -3764289004954185725, guid: 6195f781824ca8147a57f0b995fa9a70, type: 2}
     value: {fileID: 2109047523}
   m_ExposedReferences:
     m_References: []
