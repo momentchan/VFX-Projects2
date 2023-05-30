@@ -1484,8 +1484,6 @@ MonoBehaviour:
     - _DstBlend
     - _AlphaSrcBlend
     - _AlphaDstBlend
-    - _AlphaToMask
-    - _AlphaToMaskInspectorValue
     - _ZWrite
     - _TransparentZWrite
     - _CullMode
@@ -1505,9 +1503,6 @@ MonoBehaviour:
     - _StencilWriteMaskMV
     - _StencilRefDistortionVec
     - _StencilWriteMaskDistortionVec
-    - _StencilWriteMaskGBuffer
-    - _StencilRefGBuffer
-    - _ZTestGBuffer
     m_PropertyValues:
     - 4
     - 0
@@ -1517,7 +1512,7 @@ MonoBehaviour:
     - 0
     - 0
     - 0
-    - 0
+    - 1
     - 2
     - 0
     - 0
@@ -1531,10 +1526,8 @@ MonoBehaviour:
     - 0
     - 0
     - 0
-    - 0
-    - 2
     - 1
-    - 2
+    - 0
     - 2
     - 2
     - 4
@@ -1543,14 +1536,11 @@ MonoBehaviour:
     - 0
     - 0
     - 6
-    - 0
-    - 8
-    - 32
-    - 42
+    - 1
+    - 9
+    - 33
+    - 43
     - 4
-    - 4
-    - 14
-    - 2
     - 4
   MeshCount: 1
   lod: 0
