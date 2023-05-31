@@ -463,7 +463,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109047518}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 43b74b3fa04934142adfbda401ed7bff, type: 3}
+  m_Asset: {fileID: 8926484042661614526, guid: bbc0699a3f1047740b219f745ae22c44, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -520,9 +520,6 @@ VisualEffect:
         m_Overridden: 1
       - m_Value: 0.1
         m_Name: Fade
-        m_Overridden: 1
-      - m_Value: 360
-        m_Name: RotationRate
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
