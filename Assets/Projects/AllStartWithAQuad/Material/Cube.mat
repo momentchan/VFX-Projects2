@@ -60,7 +60,7 @@ Material:
     - _CullModeForward: 0
     - _DepthOffsetEnable: 0
     - _DistortionFrequency: 83.15
-    - _DistortionStrength: -0.3
+    - _DistortionStrength: 0
     - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
