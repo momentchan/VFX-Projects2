@@ -708,6 +708,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2081072860487359426, guid: 95982edd938d33d408b6f2c71fccbe50,
+        type: 3}
+      propertyPath: m_Data.m_SourceObjects.m_Length
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081072860487359426, guid: 95982edd938d33d408b6f2c71fccbe50,
+        type: 3}
+      propertyPath: m_Data.m_SourceObjects.m_Item0.weight
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4777701246178181964, guid: 95982edd938d33d408b6f2c71fccbe50,
         type: 3}
       propertyPath: m_Enabled
