@@ -36,7 +36,7 @@ public class Universe : MonoBehaviour
 
     public void StartInteraction()
     {
-        controller.StartInteraction();
+        //controller.StartInteraction();
     }
 
 
