@@ -75,7 +75,7 @@ Material:
     - _StencilWriteMaskMV: 43
     - _SurfaceType: 0
     - _T: 14.5
-    - _Tiling: 4.17
+    - _Tiling: 3
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
