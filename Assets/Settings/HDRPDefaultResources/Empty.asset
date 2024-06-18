@@ -1431,6 +1431,7 @@ MonoBehaviour:
   - {fileID: -7620752364460441906}
   - {fileID: -8946383850739475361}
   - {fileID: 8673527684249030994}
+  - {fileID: 8059429017163665053}
 --- !u!114 &17924422448830938
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2544,6 +2545,22 @@ MonoBehaviour:
   highlightsEnd:
     m_OverrideState: 1
     m_Value: 1
+--- !u!114 &8059429017163665053
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371fac22ae9b70447a02c211b9fa281d, type: 3}
+  m_Name: InvertColor
+  m_EditorClassIdentifier: 
+  active: 1
+  revert:
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &8673527684249030994
 MonoBehaviour:
   m_ObjectHideFlags: 3
